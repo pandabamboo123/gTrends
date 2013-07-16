@@ -46,3 +46,6 @@ lib/
 
 # csv archive files
 csv_results/
+
+# ignore config.txt to prevent account info
+config.txt
