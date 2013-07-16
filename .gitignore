@@ -48,4 +48,4 @@ lib/
 csv_results/
 
 # ignore config.txt to prevent account info
-config3.txt
+config.txt
