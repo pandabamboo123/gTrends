@@ -112,7 +112,7 @@ class pyGoogleTrendsCsvDownloader(object):
         if throttle:
             r = random.uniform(0.5 * self.download_delay, 1.5 * self.download_delay)
             time.sleep(r)
-        
+
         params = {
             'export': 1
         }
@@ -127,7 +127,8 @@ class pyGoogleTrendsCsvDownloader(object):
         
         # Make sure everything is working ;)
         if not r.info().has_key('Content-Disposition'):
-            print "You've exceeded your quota. Continue tomorrow..."
+            #print "You've exceeded your quota. Continue tomorrow..."
+            print "Error occured while downloading csv from google trends."
             print "Google Server response >>>"
             print r.info()
             sys.exit(0)
