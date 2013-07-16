@@ -45,7 +45,7 @@ lib/
 /bootstrap.py
 
 # csv archive files
-csv_results/
+csv_results2/
 
 # ignore config.txt to prevent account info
-config.txt
+config2.txt
